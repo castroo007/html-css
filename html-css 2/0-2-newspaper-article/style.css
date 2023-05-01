@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.banner,.second,.third,.fourth {
+    text-align: center;
+    padding: 20px;
+}
+
+h6 {
+    padding: 12px;
+}
+
+p {
+    padding: 12px;
+}
+
+

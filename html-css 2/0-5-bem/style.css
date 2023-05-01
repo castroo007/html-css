@@ -1,0 +1,77 @@
+.btn {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 0;
+}
+
+.bg--blue {
+    background: blue;
+    color: white;
+}
+
+.bg--green {
+    background: green;
+    color: white
+}
+
+.bg--orange {
+    background: orange;
+    color: white;
+}
+
+.bg--red {
+    background: red;
+    color: white;
+}
+
+.bg--red:hover {
+    background-color: brown;
+}
+
+.btn--small {
+    padding: 4px 12px;
+}
+
+.bd--blue {
+    border-color: blue;
+    border: 2px solid blue;
+    color: blue;
+    background: white;
+}
+
+.bd--green {
+    /* border-color: green;
+    border-width: 2px;
+    border-style: solid; */
+    border: 2px solid green;
+    /* padding: t r b l;
+    border-radius: tl tr br bl; */
+    color: green;
+    background: white;
+}
+
+.bd--orange {
+    border: 2px solid orange;
+    color: orange;
+    background: white;
+}
+
+.bd--red {
+    border: 2px solid red;
+    color: red;
+    background: white;
+}
+
+/*alert */
+.alert {
+    padding: 20px;
+    width: 30%;
+    margin: 10px 0 10px 0;
+}
+
+.closebtn {
+    margin-left: 15px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}

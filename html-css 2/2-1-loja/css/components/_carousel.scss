@@ -1,0 +1,36 @@
+.img-carrousel {
+    text-align: center;
+}
+
+.carrousel-wrapper {
+    max-width: 80%;
+    overflow: hidden;
+    margin: 0 auto;
+
+    .carrousel {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+         align-items: center;
+         transition: transform 0.3s ease-in-out;
+
+         img {
+            width: 250px;
+            height: auto;
+            margin-right: 1rem;
+            cursor: pointer;
+         }
+     }
+}
+
+//video
+
+.video-content {
+    margin-bottom: 50px;
+    text-align: center;
+
+    video {
+        width: 100%;
+    }
+}
+

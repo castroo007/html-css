@@ -1,0 +1,82 @@
+@import '../partials/colors';
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    background-color: $light;
+    box-shadow: $shadow;
+    text-align: center;
+}
+
+.logo img {
+    height: 50px;
+    display: flex;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    
+}
+
+.logo img {
+    height: 50px;
+}
+
+.menu {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    
+}
+
+.menu__item {
+    margin-left: 20px;
+    position: relative;
+    text-decoration: none;
+}
+.menu__item__label {
+    color: $dark;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+
+// .submenu {
+//     position: relative;
+// }
+
+// ul {
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     padding: 15px;
+// }
+
+.full-width {
+    width: 100%;
+}
+
+main {
+    position: relative;
+}
+
+.intro-cont {
+    position: absolute;
+    top: 0;
+    left: 12%;
+}

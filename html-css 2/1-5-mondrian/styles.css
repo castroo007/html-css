@@ -1,0 +1,152 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(10, 10, 10);
+    box-sizing: border-box;
+    align-items: center;
+    min-height: 100vh;
+    gap: 24px;
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(3, 0.5fr);
+    padding: 24px;
+}
+
+.board {
+    background: rgba(20, 20, 20);
+    aspect-ratio: 1;
+    border: 1px solid rgba(40, 40, 40);
+    padding: 12px;
+}
+
+div {
+    border-radius: 8px;
+}
+.box {
+    width: 20%;
+    height: 100%;
+}
+.board-1 {
+    display: flex;
+    justify-content: space-between;
+}
+.col-onethree {
+    display: flex;
+    justify-content: space-between;
+
+}
+.box1 {
+    width: 20%;
+    height: 50%;
+}
+.box1:nth-child(2) {
+    align-self: flex-end;
+}
+/* board3 */
+.board-2 {
+    display: flex;
+    gap: 50px;
+    justify-content:space-between
+}
+.box2 {
+    width: 20%;
+    height: 100%;
+}
+/* board4 */
+.board-3 {
+    display: flex;
+    justify-content: space-between;
+}
+.box3 {
+    width: 20%;
+    height: 20%;
+}
+/* board5 */
+.board-4 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-content: flex-start;
+}
+.box4 {
+    height: 30%;
+}
+.box4:nth-child(1) {
+    width: 100%;
+    height: 50%;
+}
+.box4:nth-child(2),
+.box4:nth-child(3) {
+    height: 50%;
+    width: calc(50% - 4px);
+    
+
+}
+/* board6 */
+.board-5 {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+.box5 {
+    width: 30%;
+    height: 100%;
+}
+.box5:nth-child(2) {
+    width: 70%;
+}
+
+/* board7 */
+.board-6 {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.box6 {
+    width: 100%;
+    height: 100%;
+}
+.box6:nth-child(1) {
+    height: 30%;
+}
+
+/* board7 */
+.board-7 {
+display: flex;
+}
+.box7 {
+    width: 100%;
+    height: 100%;
+}
+/* BG-colors */
+.bg-gray {
+    background: #fafafa;
+}
+
+.bg-blue {
+    background: #6979f8;
+}
+
+.bg-red {
+    background: #ff647c;
+}
+
+.bg-orange {
+    background: #ffa26b;
+}
+
+.bg-green {
+    background: #00c48c;
+}
+
+.bg-purple {
+    background: #be52f2;
+}
+
+.bg-pink {
+    background: #fbe4e8;
+}

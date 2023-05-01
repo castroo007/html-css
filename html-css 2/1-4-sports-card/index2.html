@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        display: flex;
+        gap: 32px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background-color: aqua;
+    }
+    .card {
+        background: white;
+        /* min-width: 300px;
+        max-width: 400px; */
+        width: clamp(300px, 50vh, 350px);
+        height: 50vh;
+        margin: 0 auto 8px auto;
+    }
+    .card__content{
+        background: orange;
+        height: 80%;
+    }
+    .card__actions {
+        height: 20%;
+    }
+    .btn {
+        display: block;
+        padding: 8px 16px;
+        background: blue;
+        border: 0;
+        color: white;
+        margin: 0 auto;
+
+    }
+    .label {
+        display: block;
+        text-align: center;
+        font-size: 0.7rem;
+    }
+
+    .card__content__header {
+        position: relative;
+    }
+   
+</style>
+<body>
+    <div class="card">
+        <div class="card__content">
+            <div class="card__content_header">
+                
+            </div>
+            <div class="card__content_description">
+                <h3>AIR STRUCTURE 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem repellendus laborum saepe architecto nulla dolor voluptate. Soluta tempore delectus non, molestiae libero maiores corrupti inventore corporis, rerum voluptatibus accusamus culpa!</p>
+            </div>
+        </div>
+        <div class="card__actions"></div>
+        <button class="btn btn-outline-sucess">Buy</button>
+        <span class="label">MEN RUNNING SHOES</span>
+    </div>
+</body>
+</html>

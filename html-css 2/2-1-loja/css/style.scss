@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+@import 'components/header';
+@import 'partials/colors';
+@import 'components/card';
+@import 'components/carousel.scss';
+@import 'components/footer';
+@import 'partials/typography';
+@import 'components/artig';
+@import 'components/detail';
+
+html {
+    font-size: 100%;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Public Sans' sans-serif;
+    line-height: 1.3;
+}
